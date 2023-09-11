@@ -13,20 +13,21 @@ public ConstructorDemo(){                 //Default Constructor
 	    System.out.println("Default constructor ");
 	 }
 	
-public ConstructorDemo(String a){
+public ConstructorDemo(String a){         // parameterized Constructor
 	
 	  System.out.println(" 1 String  Argument Constructor");
 	 
 	  System.out.println(a);
-  }
+
+}
 	
-public ConstructorDemo(float de){
+public ConstructorDemo(float de){                                                   
 	
 	System.out.println(" 1 Float Argument Constructor");
 	System.out.println(de);
 }
 	
-public ConstructorDemo(float re,int b){
+	public ConstructorDemo(float re,int b){
 	
 	System.out.println("2 Argument with float & int data-Type Constructor");
 	System.out.println("FLOAT VALUE : "+re+"   "+"INT VALUE : "+b);
@@ -34,3 +35,6 @@ public ConstructorDemo(float re,int b){
 	
 	
 }
+
+
+

@@ -1,5 +1,4 @@
 package com.indianBank;
-import com.indianBank.deposit.InterestCalculation;
 
 public class IndianBank {
  		
@@ -7,7 +6,7 @@ public class IndianBank {
 		
 		InterestCalculation ic = new InterestCalculation();
 		
-		ic.calculate(10);
+		ic.calculate();
 		
 	     }
 	}					
